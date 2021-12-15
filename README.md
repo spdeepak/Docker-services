@@ -1,10 +1,17 @@
-# Docker-services
+# Run services using Docker
 
 Run Services using docker on your local machine.
+
 - [Databases](#Databases)
   - [Mongo DB](#1-Mongo-DB)
   - [Postgres](#2-Postgres-DB)
   - [MySQL](#3-MySQL)
+
+# Run services using docker compose
+
+Run Services using docker compose on your local machine.
+- [Bitnami Kafka](docker-compose/docker-compose-bitnami-kafka.yml)
+
 
 ## Databases
 
