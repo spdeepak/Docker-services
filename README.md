@@ -2,7 +2,8 @@
 
 Run Services using docker on your local machine.
 - [Databases](#Databases)
-
+  - [Mongo DB](#1.-Mongo-DB)
+  - [Postgres](#2.-Postgres-DB)
 
 ## Databases
 
