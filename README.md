@@ -6,6 +6,7 @@ Run Services using docker on your local machine.
   - [Mongo DB](#1-Mongo-DB)
   - [Postgres](#2-Postgres-DB)
   - [MySQL](#3-MySQL)
+  - [Couchbase](#4-Couchbase)
 
 # Run services using docker compose
 
@@ -68,3 +69,10 @@ docker logs mysqlCustomName
 ```
 docker exec -it mysqlCustomName mysql -u root -p
 ```
+### 4. Couchbase
+* Run Couchbase Server docker container
+```
+docker run -d --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase
+```
+* Next, visit http://localhost:8091 on the host machine to see the Web Console to start Couchbase Server setup.
+* Official [docker](https://hub.docker.com/_/couchbase) site has further steps in detail 
